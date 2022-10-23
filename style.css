@@ -11,6 +11,7 @@ body{
 header {
     display: flex;
     justify-content: space-around;
+    padding-top: 20px;
 }
 
 header ul {
@@ -21,9 +22,12 @@ header ul {
 
 header ul li {
     list-style: none;
+    display: flex;
+    align-items: center;
 }
 header a{
     text-decoration: none;
+    margin: 10px;
 }
 
 .contentOne {
@@ -34,10 +38,10 @@ header a{
 .contentOneText {
     display: flex;
     flex-direction: column;
-    height: 366px;
     margin-left: 7.99%;
     margin-right: 50%;
     padding-top: 194.5px;
+    gap: 20px;
 }
 
 .Hundreds {
@@ -205,4 +209,26 @@ header a{
     background: #17002E;
     border-radius: 8px 10px 10px 8px;
 }
+.contentSeven{
+    display: flex;
+    background: #F5F5F5;
+}
+.contentSeven div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    align-items: center;
+}
+.sevenaOne{
+    text-decoration: none;
+    color: white;
+    background: #6F2CFF;
+    padding: 10px 40px 8px 40px;
+    border-radius:20px;
+    border: 1px solid #6F2CFF;
+    display: flex;
+    margin-top: 74px;
+}
+
 
