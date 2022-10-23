@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0 auto;
+    width: 1200px;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+header ul li {
+    list-style: none;
+}
+header a{
+    text-decoration: none;
+}
+
+.contentOne {
+    background: url(./media/Rectangle.png) center;
+    height: 755px;
+}
+
+.contentOneText {
+    display: flex;
+    flex-direction: column;
+    height: 366px;
+    margin-left: 7.99%;
+    margin-right: 50%;
+    padding-top: 194.5px;
+}
+
+.Hundreds {
+    width: 350px;
+}
+
+.contentOneText input {
+    padding: 10px 120px 8px 18px;
+    border-radius: 20px 0 0 20px;
+    border: 1px solid #6F2CFF;
+    border-right: none;
+}
+
+.contentOneButton {
+    background: #6F2CFF;
+    padding: 10px 20px 8px 20px;
+    border-radius: 0 20px 20px 0;
+    border: 1px solid #6F2CFF;
+    border-left: none;
+}
+.contentOneButtonTwo{
+    background: #6F2CFF;
+    padding: 10px 20px 8px 20px;
+    border-radius:20px;
+    border: 1px solid #6F2CFF;
+}
+.button {
+    display: flex;
+}
+.contentTwo{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 10%;
+}
+.twodiv{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contentTwoText h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contentTwoTextM{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 90px;
+}
+
+.treeDiv{
+    display: flex;
+    justify-content: center;
+}
+.treeDiv div{
+    width: 314px;
+}
+.treedivqubit{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contentThree{
+    text-align: center;
+    background-color: #F5F5F5;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.textTematree{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.treeButtonTwo{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+.treeaOne{
+    text-decoration: none;
+    color: white;
+    background: #6F2CFF;
+    padding: 10px 40px 8px 40px;
+    border-radius:20px;
+    border: 1px solid #6F2CFF;
+}
+.treea{
+    text-decoration: none;
+    color: #6F2CFF;
+    background: #f7f7f7;
+    padding: 10px 40px 8px 40px;
+    border-radius:20px;
+    border: 1px solid;
+}
+.contentFour{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+.sixdiv{
+    display: flex;
+    gap: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    text-align: center;
+    place-items: center;
+}
+.contentFour p{
+    width: 265px;
+}
+.contentFive{
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+.conteudo{
+    display: flex;
+}
+.w3-right{
+    display: flex;
+    align-items: center;
+    background-color:#6f2cff42;
+    padding:20px;
+
+}
+.w3-left{
+    display: flex;
+    align-items: center;
+    background-color: #6f2cff42;
+    padding:20px;
+}
+
