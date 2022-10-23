@@ -157,9 +157,12 @@ header a{
     text-align: center;
     display: grid;
     place-items: center;
+    padding: 15rem 0 ;
+    background-color: #F5F5F5;
 }
 .conteudo{
     display: flex;
+    gap: 30px;
 }
 .w3-right{
     display: flex;
@@ -173,5 +176,33 @@ header a{
     align-items: center;
     background-color: #6f2cff42;
     padding:20px;
+}
+.mySlides{
+    width: 320px;
+}
+.contentSix{
+    padding: 5rem 0 ;
+    text-align: center;
+}
+.cards{
+    text-align: left;
+    display: flex;
+    gap: 30px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    place-items: center;
+    
+}
+.cards span{
+    font-size: 28px;
+    font-family: 'Roboto';
+}
+.cards div{
+    padding: 20px;
+    width: 460px;
+    height: 199px;
+    background: #17002E;
+    border-radius: 8px 10px 10px 8px;
 }
 
