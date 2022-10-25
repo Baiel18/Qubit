@@ -3,11 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     padding: 0;
     margin: 0 auto;
     width: 1200px;
 }
+
 header {
     display: flex;
     justify-content: space-around;
@@ -25,7 +27,8 @@ header ul li {
     display: flex;
     align-items: center;
 }
-header a{
+
+header a {
     text-decoration: none;
     margin: 10px;
 }
@@ -62,50 +65,59 @@ header a{
     border: 1px solid #6F2CFF;
     border-left: none;
 }
-.contentOneButtonTwo{
+
+.contentOneButtonTwo {
     background: #6F2CFF;
     padding: 10px 20px 8px 20px;
-    border-radius:20px;
+    border-radius: 20px;
     border: 1px solid #6F2CFF;
 }
+
 .button {
     display: flex;
 }
-.contentTwo{
+
+.contentTwo {
     display: flex;
     flex-direction: column;
     gap: 40px;
     padding-bottom: 10%;
 }
-.twodiv{
+
+.twodiv {
     padding: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.contentTwoText h3{
+
+.contentTwoText h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.contentTwoTextM{
+
+.contentTwoTextM {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 90px;
 }
 
-.treeDiv{
+.treeDiv {
     display: flex;
     justify-content: center;
 }
-.treeDiv div{
+
+.treeDiv div {
     width: 314px;
 }
-.treedivqubit{
+
+.treedivqubit {
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.contentThree{
+
+.contentThree {
     text-align: center;
     background-color: #F5F5F5;
     padding-top: 10%;
@@ -114,121 +126,211 @@ header a{
     flex-direction: column;
     gap: 60px;
 }
-.textTematree{
+
+.textTematree {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-.treeButtonTwo{
+
+.treeButtonTwo {
     display: flex;
     justify-content: center;
     gap: 10%;
 }
-.treeaOne{
+
+.treeaOne {
     text-decoration: none;
     color: white;
     background: #6F2CFF;
     padding: 10px 40px 8px 40px;
-    border-radius:20px;
+    border-radius: 20px;
     border: 1px solid #6F2CFF;
 }
-.treea{
+
+.treea {
     text-decoration: none;
     color: #6F2CFF;
     background: #f7f7f7;
     padding: 10px 40px 8px 40px;
-    border-radius:20px;
+    border-radius: 20px;
     border: 1px solid;
 }
-.contentFour{
+
+.contentFour {
     display: flex;
     flex-direction: column;
     gap: 30px;
     text-align: center;
 }
-.sixdiv{
+
+.sixdiv {
     display: flex;
     gap: 40px;
     display: grid;
-    grid-template-columns: repeat(3,3fr);
+    grid-template-columns: repeat(3, 3fr);
     text-align: center;
     place-items: center;
 }
-.contentFour p{
+
+.contentFour p {
     width: 265px;
 }
-.contentFive{
+
+.contentFive {
     text-align: center;
     display: grid;
     place-items: center;
-    padding: 15rem 0 ;
+    padding: 15rem 0;
     background-color: #F5F5F5;
 }
-.conteudo{
+
+.conteudo {
     display: flex;
     gap: 30px;
 }
-.w3-right{
-    display: flex;
-    align-items: center;
-    background-color:#6f2cff42;
-    padding:20px;
 
-}
-.w3-left{
+.w3-right {
     display: flex;
     align-items: center;
     background-color: #6f2cff42;
-    padding:20px;
+    padding: 20px;
+
 }
-.mySlides{
+
+.w3-left {
+    display: flex;
+    align-items: center;
+    background-color: #6f2cff42;
+    padding: 20px;
+}
+
+.mySlides {
     width: 320px;
 }
-.contentSix{
-    padding: 5rem 0 ;
+
+.contentSix {
+    padding: 5rem 0;
     text-align: center;
 }
-.cards{
+
+.cards {
     text-align: left;
     display: flex;
     gap: 30px;
     color: white;
     display: grid;
-    grid-template-columns: repeat(2,2fr);
+    grid-template-columns: repeat(2, 2fr);
     place-items: center;
-    
+
 }
-.cards span{
+
+.cards span {
     font-size: 28px;
     font-family: 'Roboto';
 }
-.cards div{
+
+.cards div {
     padding: 20px;
     width: 460px;
     height: 199px;
     background: #17002E;
     border-radius: 8px 10px 10px 8px;
 }
-.contentSeven{
+
+.contentSeven {
     display: flex;
     background: #F5F5F5;
 }
-.contentSeven div{
+
+.contentSeven div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 30px;
     align-items: center;
 }
-.sevenaOne{
+
+.sevenaOne {
     text-decoration: none;
     color: white;
     background: #6F2CFF;
     padding: 10px 40px 8px 40px;
-    border-radius:20px;
+    border-radius: 20px;
     border: 1px solid #6F2CFF;
     display: flex;
     margin-top: 74px;
 }
 
+.contentNain {
+    text-align: center;
+    background: url(./media/Rectangle\ \(6\).png);
+    display: grid;
+    place-items: center;
+    padding: 10%;
+    color: #f7f7f7;
+    gap: 50px;
+}
 
+.nain {
+    display: flex;
+}
+
+.contentNainButton {
+    background: #6F2CFF;
+    padding: 10px 40px 8px 50px;
+    border-radius: 0 20px 20px 0;
+    border: 1px solid #6F2CFF;
+    border-left: none;
+}
+
+.nain input {
+    padding: 10px 140px 8px 20px;
+    border-radius: 20px 0 0 20px;
+}
+
+.contentTen {
+    text-align: center;
+
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+footer {
+    background: #20003C;
+    color: white;
+    padding-bottom: 5%;
+}
+
+.footer {
+    display: flex;
+    padding: 35px 80px 0px 130px;
+    gap: 20px;
+}
+
+.footer div {
+    height: 280px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer p{
+    font-size: 12px;
+}
+footer svg{
+    margin:0 0 80px 110px;
+}
+
+.qubitfooter{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -135px;
+}
